@@ -38,9 +38,9 @@ class MainActivity : ComponentActivity() {
     }
 }
 
-
 @Composable
 fun BasicCompose(
+    name: String,
     modifier: Modifier = Modifier
 ){
     Column(horizontalAlignment = Alignment.CenterHorizontally,
