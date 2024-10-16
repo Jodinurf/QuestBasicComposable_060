@@ -77,7 +77,8 @@ fun BasicCompose(
             fontWeight = FontWeight.Bold
         )
 
-        Text(text = NIM)
+        Text(text = NIM,
+            fontSize = 30.sp)
     }
 }
 
