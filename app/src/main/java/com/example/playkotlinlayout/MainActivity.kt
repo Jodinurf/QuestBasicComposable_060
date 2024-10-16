@@ -30,6 +30,7 @@ class MainActivity : ComponentActivity() {
             PlayKotlinLayoutTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     BasicCompose(
+                        name = "",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
