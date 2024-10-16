@@ -65,3 +65,7 @@ fun BasicCompose(
         )
     }
 }
+
+@Preview(showBackground = true)
+@Composable
+fun BasicComposePreview(){}
