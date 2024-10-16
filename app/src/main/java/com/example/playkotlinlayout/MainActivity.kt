@@ -69,7 +69,11 @@ fun BasicCompose(
 
         Text(text = name)
 
-        Text(text = nama)
+        Text(text = nama,
+            fontSize = 12.sp,
+            color = Color.Red,
+            fontWeight = FontWeight.Bold
+        )
     }
 }
 
