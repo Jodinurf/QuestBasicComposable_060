@@ -79,6 +79,11 @@ fun BasicCompose(
 
         Text(text = NIM,
             fontSize = 30.sp)
+
+        Image(
+            painter = painterResource(id = R.drawable.gambarphotodiri),
+            contentDescription = null
+        )
     }
 }
 
