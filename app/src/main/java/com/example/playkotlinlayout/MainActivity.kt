@@ -32,6 +32,7 @@ class MainActivity : ComponentActivity() {
                     BasicCompose(
                         name = "Nama",
                         nama = "Jodi Nur Farkhani",
+                        NIM = "20220140060",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
@@ -44,6 +45,7 @@ class MainActivity : ComponentActivity() {
 fun BasicCompose(
     name: String,
     nama : String,
+    NIM : String,
     modifier: Modifier = Modifier
 ){
     Column(horizontalAlignment = Alignment.CenterHorizontally,
@@ -81,6 +83,6 @@ fun BasicCompose(
 @Composable
 fun BasicComposePreview(){
     PlayKotlinLayoutTheme {
-        BasicCompose("Nama","Jodi Nur Farkhani")
+        BasicCompose("Nama","Jodi Nur Farkhani", "20220140060")
     }
 }
