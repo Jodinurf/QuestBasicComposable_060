@@ -30,7 +30,7 @@ class MainActivity : ComponentActivity() {
             PlayKotlinLayoutTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     BasicCompose(
-                        name = "",
+                        name = "Nama",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
@@ -64,6 +64,8 @@ fun BasicCompose(
             painter = painterResource(id = R.drawable.logofifa),
             contentDescription = null
         )
+
+        Text(text = name)
     }
 }
 
@@ -71,6 +73,6 @@ fun BasicCompose(
 @Composable
 fun BasicComposePreview(){
     PlayKotlinLayoutTheme {
-        BasicCompose("")
+        BasicCompose("Nama")
     }
 }
