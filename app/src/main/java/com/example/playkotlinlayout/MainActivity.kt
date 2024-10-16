@@ -84,6 +84,7 @@ fun BasicCompose(
             painter = painterResource(id = R.drawable.gambarphotodiri),
             contentDescription = null
         )
+
     }
 }
 
