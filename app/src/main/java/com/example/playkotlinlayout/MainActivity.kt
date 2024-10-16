@@ -31,6 +31,7 @@ class MainActivity : ComponentActivity() {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     BasicCompose(
                         name = "Nama",
+                        nama = "Jodi Nur Farkhani",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
@@ -42,6 +43,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun BasicCompose(
     name: String,
+    nama : String,
     modifier: Modifier = Modifier
 ){
     Column(horizontalAlignment = Alignment.CenterHorizontally,
@@ -66,6 +68,8 @@ fun BasicCompose(
         )
 
         Text(text = name)
+
+        Text(text = nama)
     }
 }
 
@@ -73,6 +77,6 @@ fun BasicCompose(
 @Composable
 fun BasicComposePreview(){
     PlayKotlinLayoutTheme {
-        BasicCompose("Nama")
+        BasicCompose("Nama","Jodi Nur Farkhani")
     }
 }
